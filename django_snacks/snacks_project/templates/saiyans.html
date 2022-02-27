@@ -1,0 +1,26 @@
+{% extends 'db_base.html' %}
+
+{% block nav %}
+<ul>
+  {% include 'db_navbar.html' %}
+</ul>
+<ul>
+  <li>
+    <a href= {% url 'gohan' %}>Gohan</a>    
+  </li>
+  <li>
+    <a href= {% url 'goku' %}>Goku</a>
+  </li>
+  <li>    
+    <a href= {% url 'vegeta' %}>Vegeta</a>
+  </li>
+</ul>
+{% endblock nav %}
+
+{% block content %}
+  <h1>Saiyans</h1>
+  <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/02/dbs-featured.jpg" alt="Saiyans" width="1300" height="800">
+
+  
+  
+{% endblock content %}

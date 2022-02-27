@@ -1,0 +1,37 @@
+{% extends 'db_base.html' %}
+
+{% block nav %}
+
+<ul>
+  {% include 'db_navbar.html' %}
+</ul>
+
+<ul>
+  <li>
+    <a href= {% url 'bulma' %}>Bulma</a>    
+  </li>
+  <li>
+    <a href= {% url 'chichi' %}>Chi-Chi</a>
+  </li>
+  <li>    
+    <a href= {% url 'krillin' %}>Krillin</a>
+  </li>
+  <li>    
+    <a href= {% url 'roshi' %}>Roshi</a>
+  </li>
+  <li>
+    <a href= {% url 'tien' %}>Tien</a>
+  </li>
+  <li>    
+    <a href= {% url 'yamcha' %}>Yamcha</a>  
+  </li>
+</ul>
+
+{% endblock nav %}
+
+{% block content %}
+
+  <h1>Humans</h1>
+  <img src="https://static.wikia.nocookie.net/dragonball/images/0/06/DBZ_-_228_-_%28by_dbzf.ten.lt%29_20120305-16141012.jpg/revision/latest/scale-to-width-down/250?cb=20120307111407" alt="Humans" width="600" height="400">  
+  
+{% endblock content %}
