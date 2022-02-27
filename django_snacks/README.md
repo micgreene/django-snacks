@@ -23,4 +23,4 @@
 
 ### README
 
-+ [README.md](URL '')
++ [README.md](URL 'https://github.com/micgreene/django-snacks/blob/dev/django_snacks/README.md')
