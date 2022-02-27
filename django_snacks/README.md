@@ -19,8 +19,8 @@
 
 ### Pull Request
 
-+ [django-snacks/pull/1]('https://github.com/micgreene/django-snacks/pull/1')
++ [django-snacks/pull/1](https://github.com/micgreene/django-snacks/pull/1)
 
 ### README
 
-+ [README.md]('https://github.com/micgreene/django-snacks/blob/dev/django_snacks/README.md')
++ [README.md](https://github.com/micgreene/django-snacks/blob/dev/django_snacks/README.md)
