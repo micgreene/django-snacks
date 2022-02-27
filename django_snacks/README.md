@@ -19,7 +19,7 @@
 
 ### Pull Request
 
-+ [](URL '')
++ [django-snacks/pull/1](URL 'https://github.com/micgreene/django-snacks/pull/1')
 
 ### README
 
